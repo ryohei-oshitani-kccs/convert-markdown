@@ -1,0 +1,12 @@
+# Excel/Word → Markdown 変換ツール
+# 必要なPythonパッケージ
+
+# Windows COM経由でExcel/Wordを操作するためのライブラリ
+pywin32>=305
+
+# PDFからテキストを抽出するためのライブラリ
+PyMuPDF>=1.23.0
+
+# より高度な変換を行う場合の追加オプション
+# pymupdf4llm>=0.0.5  # AI強化されたMarkdown変換（オプション）
+
